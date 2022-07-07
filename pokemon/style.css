@@ -1,0 +1,20 @@
+*{
+background-color: rgba(195, 238, 188, 0.582);
+}
+
+.title{
+  text-align: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:100px;
+  
+}
+
+.poke{
+    font-size:20px;
+}
+
+img{
+    border-radius: 50px;
+    height: fit-content;
+    align-items:flex-start;
+}
