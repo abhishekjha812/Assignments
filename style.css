@@ -1,56 +1,24 @@
-body
-{
-     
-    background-color:grey;
-    width: 100%;
-
+.bg {
+  width: 100%;
+  background-size: 300% 600%;
+  background-image: linear-gradient(
+    -45deg,
+    rgb(25, 169, 236) 0%,
+    rgb(7, 17, 71) 25%,
+    rgb(71, 5, 95) 51%,
+    rgb(160, 12, 12) 100%
+  );
+  animation: AnimateBG 15s ease infinite;
 }
 
-h1
-{
-   
-    text-decoration: underline;
-    font-size: 3rem;
-}
-
-.structure
-{
-    width: 500px;
-}
-
-span {
-    font-size: 2rem;
-    
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
-
-}
-
-p{
-    font-size: 1.8rem;
-}
-
-.button
-{
-    display: flex;
-    justify-content: space-around;
-}
-
-button
-{
-    height: 50px;
-    width: 150px;
-    border: 1px solid black;
-    border-radius: 5%;
-    background-color: blanchedalmond;
-    font-size: 1rem;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    cursor: pointer;
-    box-shadow: 5px 5px #888888;
-}
-
-button:hover{
-    height: 70px;
-    width: 170px;
-    color: grey;
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
