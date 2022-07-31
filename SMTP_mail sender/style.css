@@ -1,0 +1,21 @@
+
+
+form{
+    position: relative;
+}
+.one{
+    /* max-width: 60%; */
+    /* height: 92vh; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    background-color: rgb(195, 237, 44);
+    box-shadow: 5px 5px 5px 5px;
+    padding: 10px;
+    z-index: 0;
+}
+.send{
+    visibility: hidden;
+}
