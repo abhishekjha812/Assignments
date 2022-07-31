@@ -1,0 +1,76 @@
+body {
+    margin: 5px;
+    background: linear-gradient(to left, #ffad33 0%, #48e01a 100%);
+    margin-top: 3rem;
+}
+
+.container {
+    max-width: 1000px;
+    min-height: 500px;
+    background: linear-gradient(to bottom, #33ffa7 0%, #f4f155 100%);
+    border: 5px solid white;
+    margin-top: 30rem;
+}
+
+#search-input {
+    background-color: rgba(165, 23, 23, 0.1);
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #fff;
+    font-weight: 800;
+}
+
+#main {
+    border-top: 2px solid rgb(47, 212, 69);
+    padding-top: 1em;
+    font-weight: 900;
+}
+
+.poster {
+    flex: 50%;
+    margin-bottom: 0.5em;
+    text-align: right;
+}
+
+.info {
+    flex: 50%;
+    /* text-align: right; */
+    font-weight: 900;
+}
+
+.poster img {
+    width: 50%;
+    border-radius: 30px;
+    
+   
+}
+
+.plot {
+    flex: 100%;
+    text-align: center;
+    border-top: 2px solid rgb(47, 212, 69);
+    border-bottom: 2px solid rgb(47, 212, 69);
+    padding-top: 1em;
+    margin-top: 1em;
+    border-radius: 50px;
+}
+
+@media (max-width:400px) {
+    #main {
+        text-align: center;
+    }
+
+    .poster {
+        flex: 100%;
+    }
+
+    .info {
+        flex: 100%;
+        text-align: center;
+    }
+}
+
+.text-white h1 {
+    font-weight: 900;
+}
